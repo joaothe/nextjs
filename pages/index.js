@@ -1,12 +1,12 @@
-import Link from 'next/link';
+import Header from '../components/Header';
 
-const Index = () => (
+// stoped here https://nextjs.org/learn/basics/using-shared-components/the-layout-component
+
+export default function Index() {
+  return (
     <div>
-      <Link href="/about">
-        <a>About Page</a>
-      </Link>
+      <Header />
       <p>Hello Next.js</p>
     </div>
   );
-  
-  export default Index;
+}
